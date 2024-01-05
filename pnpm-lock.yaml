@@ -3441,7 +3441,10 @@ importers:
       '@pipedream/platform': 1.5.1
 
   components/kizeo_forms:
-    specifiers: {}
+    specifiers:
+      '@pipedream/platform': ^1.5.1
+    dependencies:
+      '@pipedream/platform': 1.5.1
 
   components/klaviyo:
     specifiers:
